@@ -1,0 +1,590 @@
+/*Global CSS*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Open+Sans:400,700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	
+}
+
+body{
+
+	font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+h1 {
+	font-size: 65px;
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+
+}
+h2 {
+	font-size: 36px;
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+}
+h3 {
+	font-size: 22px;
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+}
+h4 {
+	font-size: 18px;
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+}
+h5 {
+	font-size: 16px;
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+}
+h6 {
+	font-size: 14px;
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+}
+p { 
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	color: #b1b0b1;
+	line-height: 1.7;
+}
+
+
+.heading span {
+
+	display: inline-block;
+	width: 60px;
+	height: 4px;
+	background: #f2622c;
+	margin: 15px 0;
+}
+
+.heading h2 {
+	
+	text-transform: uppercase;
+	padding: 10px 0;
+}
+
+a {
+	
+	margin-top: 0px;
+	display: block;
+	text-transform: uppercase;
+	color: #f2622c;
+	transition-duration: .4s;
+	
+}
+
+
+
+a:hover {
+	
+	color: #fff;
+	text-decoration: none;
+}
+
+
+.custom-btn {
+
+	background-color: #fff;
+	padding: 7px 61px;
+	border-radius: 0;
+	margin-top: 35px;
+	font-weight: 600;
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*Header CSS*/
+
+
+nav {
+	padding-top: 20px!important; 
+	padding-bottom: 20px!important;
+}
+
+.navbar-toggler {
+	border: 1px solid #204f87;
+}
+.navbar-toggler span {
+	display: block;
+	width: 25px;
+	height: 3px;
+	margin: 4px 0;
+	background: #204f87;
+	transition: .4s;
+}
+
+
+
+
+.bg-color {
+	background-color: #fff;
+	min-height: 100px;
+}
+.n-item {
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 600;
+	color: #204f87 !important;
+	padding-right: 18px !important;
+	transition-duration: .4s;
+}
+.n-item:hover {
+	color: #f2622c !important;
+}
+
+
+
+
+
+/*Header Section CSS*/
+
+header {
+ 
+	
+	padding: 160px 0;
+	position: relative;
+}
+
+
+header .first_image{
+
+	background: linear-gradient(rgba(242,98,44,.8),rgba(242,98,44,.8)),url(../images/bulb.png);
+	width: 50.5%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-clip-path: polygon(0 0,87.2% 0,100% 100%, 0 100%);
+	   -moz-clip-path: polygon(0 0,87.2% 0,100% 100%, 0 100%);
+	   	-ms-clip-path: polygon(0 0,87.2% 0,100% 100%, 0 100%);
+	     -o-clip-path: polygon(0 0,87.2% 0,100% 100%, 0 100%);
+	        clip-path: polygon(0 0,87.2% 0,100% 100%, 0 100%);
+	z-index: -1;
+}
+
+header .second_image{
+	
+	background: linear-gradient(rgba(40,55,126,.8),rgba(40,55,126,.8)),url(../images/meeting.png);
+	width: 56%;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-clip-path: polygon(0 0,100% 0,100% 100%, 11.5% 100%);
+	   -moz-clip-path: polygon(0 0,100% 0,100% 100%, 11.5% 100%);
+	    -ms-clip-path: polygon(0 0,100% 0,100% 100%, 11.5% 100%);
+	     -o-clip-path: polygon(0 0,100% 0,100% 100%, 11.5% 100%);
+	        clip-path: polygon(0 0,100% 0,100% 100%, 11.5% 100%);
+    z-index: -1;
+}
+
+
+header .header_content {
+
+	padding: 2% 16%;
+	text-align: center;
+}
+
+	
+
+header h1 {
+    font-size: 65px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+}
+header a {
+
+	color: #fff;
+	display: inline-block;
+	font-size: 20px;
+	animation: move;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	 -webkit-transform: translateY(80px);
+		-moz-transform: translateY(80px);
+		 -ms-transform: translateY(80px);
+		  -o-transform: translateY(80px);
+			 transform: translateY(80px);
+}
+
+				
+
+@keyframes move {
+
+
+	0% {
+		
+		-webkit-transform: translateY(80px);
+		   -moz-transform: translateY(80px);
+		    -ms-transform: translateY(80px);
+		     -o-transform: translateY(80px);
+			    transform: translateY(80px);
+		opacity: 1;
+	}
+
+
+	100% {
+		-webkit-transform: translateY(130px);
+		   -moz-transform: translateY(130px);
+		    -ms-transform: translateY(130px);
+		     -o-transform: translateY(130px);
+			    transform: translateY(130px);
+		opacity: .1;
+
+	}
+}
+
+header a:hover {
+
+	color: #fff;
+		
+}
+
+
+
+/*Who_we_are Section CSS*/
+
+.who_we_are {
+
+	padding: 117px 0;
+}
+
+.who_we_are .heading h2 {
+	
+	color: #204f87;
+}
+
+.who_we_are p {
+	
+	padding-right: 18%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+
+
+/*What_We_Do Section CSS*/
+
+
+.what_we_do {
+
+	padding: 30px 0 55px;
+	background-color: #f7f8f8;
+	position: relative;
+}
+.what_we_do .position_bg{
+
+	width: 50%;
+	background: linear-gradient(rgba(242, 98, 44, 0.8), rgba(242, 98, 44, 0.8)),url(../images/we_do_wbg.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-clip-path: polygon(25% 0, 0 100%, 100% 100%, 100% 0%);
+	   -moz-clip-path: polygon(25% 0, 0 100%, 100% 100%, 100% 0%);
+		-ms-clip-path: polygon(25% 0, 0 100%, 100% 100%, 100% 0%);
+		 -o-clip-path: polygon(25% 0, 0 100%, 100% 100%, 100% 0%);
+		    clip-path: polygon(25% 0, 0 100%, 100% 100%, 100% 0%);
+	position: absolute;
+	right: 0;
+	bottom: 0px;
+	z-index: 0;
+	height: 80%;
+}
+
+.what_we_do .heading {
+	
+	text-align: center;
+}
+
+.what_we_do .heading h2 {
+	
+	color: #204f87;
+}
+
+
+.portfollio {
+	
+	padding: 40px 0;
+}
+
+
+.p_image1 {
+	background: linear-gradient(rgba(0, 0, 0, 0), rgba(40,55,126,0.8)),url(../images/we_do11.png);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 510px;
+	position: relative;
+}
+
+.p_image2 {
+	background: linear-gradient(rgba(0, 0, 0, 0), rgba(40,55,126,0.8)),url(../images/we_do12.png);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 510px;
+	position: relative;
+}
+
+
+.p_image3 {
+	background: linear-gradient(rgba(0, 0, 0, 0), rgba(40,55,126,0.8)),url(../images/we_do13.png);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 510px;
+	position: relative;
+}
+
+
+.portfollio h3 {
+	
+	color: #fff;
+	position: absolute;
+	left: 50%;
+	bottom: 50%;
+	transform: translate(-50%,50%);
+	-webkit-transform: translate(-50%,50%);
+	-moz-transform: translate(-50%,50%);
+	-ms-transform: translate(-50%,50%);
+	display: inline;
+	font-size: 19px;
+	text-align: center;
+}
+
+
+
+.what_we_do a {
+	
+	display: block;
+	position: absolute;
+	left: 50%;
+	bottom: 25%;
+	transform: translate(-50%,25%);
+	-webkit-transform: translate(-50%,25%);
+	-moz-transform: translate(-50%,25%);
+	-ms-transform: translate(-50%,25%);
+	font-size: 30px;
+	color: #fff;
+	transition-duration: .3s;
+}
+
+.what_we_do a:hover {
+
+	color: #f2622c;
+}
+
+
+
+/*Our Attorneys Section CSS*/
+
+.our_attorney {
+
+	padding: 60px 0;
+	background: linear-gradient(rgba(40, 55, 126, 0.8),rgba(40, 55, 126, 0.7)),url(../images/our_attorney-wbg.jpg);
+	background-position: bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.our_attorney .heading {
+	
+	padding: 20% 5%;
+}
+
+.our_attorney .heading h2 {
+	
+	color: #fff;
+}
+
+.our_attorney .heading  p{
+	color: #e0e6ff;
+	
+}
+
+.our_attorney .heading a {
+	
+	margin-top: 30px;
+	display: block;
+	text-transform: uppercase;
+	color: #f2622c;
+	transition-duration: .4s;
+
+}
+
+.our_attorney .heading a:hover {
+	
+	color: #fff;
+	text-decoration: none;
+}
+
+.our_attorney .attorney_img {
+	
+	margin: 20px auto;
+	display: block;
+	position: relative;
+}
+
+.our_attorney h4{
+	
+	position: absolute;
+	left: 15%;
+	bottom: 47px;
+	color: #fff;
+	text-transform: uppercase;
+	padding-right: 37%;
+}
+
+/*Language Section CSS*/ 
+
+.languages {
+
+	padding: 60px 0;
+}
+
+.languages .heading {
+	text-align: center;
+}
+
+.languages .heading h2 {
+
+	color: #204f87;
+	padding-bottom: 40px;
+}
+
+.languages .languages_content {
+    padding: 20px 30px;
+    transition-duration: .4s;
+    
+}
+
+.languages .languages_content:hover{
+    box-shadow: 0 0 22px 0 #204f874f;
+}
+
+.languages .languages_content h4 {
+	color: #204f87;
+	text-transform: uppercase;
+}
+
+.languages .languages_content p {
+	font-size: 13px;
+}
+
+.languages .languages_content a:hover {
+	color: #204f87;
+
+}
+
+
+/*Contact Section CSS*/
+
+.contact_us {
+	padding: 60px 0;
+	background-color: #28377e;
+}
+
+.contact_us .contact_content {
+	text-align: center;
+	margin: 0 auto;
+
+}
+
+.contact_us .contact_content .heading h2 {
+
+	padding-bottom: 40px;
+	color: #fff;
+}
+
+.contact_us .contact_content .contact_info {
+
+	margin: 0 40px;
+}
+
+form .form-control {
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #fff;
+	border-radius: 0;
+	padding: 0;
+	margin-top: 35px;
+
+}
+
+form .custom-btn {
+
+	background-color: #f2622c;
+	transition-duration: .4s;
+}
+
+form .custom-btn:hover {
+
+	border: 1px solid #f2622c;
+	color: #fff;
+	opacity: .8;
+}
+
+.form-control::placeholder {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/*Footer Section CSS*/
+
+footer {
+
+	padding: 30px 0;
+	background-color: #0c1234;
+}
+
+footer .copy_right {
+
+	margin: auto;
+}
+
+footer .copy_right h6 {
+
+	font-weight: 400;
+	color: #616ca8;
+	padding-top: 10px;
+}
+
+footer .social_icon {
+
+	justify-content: end;
+	display: flex;
+}
+
+footer .social_icon ul li a {
+
+	color: #616ca8;
+	padding: 8px;
+	margin: 0;
+	font-size: 18px;
+	transition-duration: .4s;
+}
+
+footer .social_icon ul li a:hover {
+
+	color: #fff;
+}

@@ -1,0 +1,19 @@
+
+
+all heading font family: Montserrat (semi bold, 
+
+
+
+h1 = 82 px bold
+h2 = 36 bold
+h3 =26
+h4 =24
+h5=18
+h6 14
+header content= 12 px, semibold
+placeholder = 14 regular
+
+
+p tag font family :openSans (regular)
+ read more and button (bold)
+copyright (regular)
